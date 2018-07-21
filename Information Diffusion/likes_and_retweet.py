@@ -7,13 +7,13 @@ class authentication:
     def __init__(self):
         # Go to http://apps.twitter.com and create an app.
         # The consumer key and secret will be generated for you after
-        self.consumer_key ="B5xMk0kvoaSKNVWKL1e2xEhYq"
-        self.consumer_secret="OfFYrek8DtKtWwS6GA4AVyklCLzdOJ7v51n9pcdN56zw6Tqzs2"
+        self.consumer_key =""
+        self.consumer_secret=""
 
         # After the step above, you will be redirected to your app's page.
         # Create an access token under the the "Your access token" section
-        self.access_token="69864697-fp08immEXifFVRw3NJh0RM9Y2zVGji8OAKiZTiRMx"
-        self.access_token_secret="dGGI2Ah6QJ6tmSi0p6EwD4DVUmKMBiKoNZsE9YbAdSFos"
+        self.access_token=""
+        self.access_token_secret=""
 
     def getconsumer_key(self):
         return self.consumer_key
